@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "common/*": ["./src/common/*"],
+      "panda/*": ["./panda/*"],
+    },
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "remove",
+    "incremental": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "target": "esnext"
+  }
+}
