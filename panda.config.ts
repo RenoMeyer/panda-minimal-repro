@@ -1,5 +1,4 @@
 import { defineConfig } from "@pandacss/dev";
-import preset from './preset.js';
 
 export default defineConfig({
   exclude: [],
@@ -8,5 +7,5 @@ export default defineConfig({
   outdir: "panda",
   outExtension: 'js',
   preflight: true,
-  presets: [preset]
+  theme: { tokens: { colors: { primary: { value: "green" } } } }
 });
